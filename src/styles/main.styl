@@ -1,0 +1,80 @@
+.whl-loader-inner
+  height 50px;
+  position relative;
+  width 50px;   /* background-color: black;
+  border-radius:50% */
+
+.whl-loader-line-wrap
+  animation spin 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+  box-sizing border-box;
+  height 25px;
+  left 0;
+  overflow hidden;
+  position absolute;
+  top 0;
+  transform-origin 50% 100%;
+  width 50px;
+
+.whl-loader-line
+  border 4px solid transparent;
+  border-radius 100%;
+  box-sizing border-box;
+  height 50px;
+  left 0;
+  margin 0 auto;
+  position absolute;
+  right 0;
+  top 0;
+  width 50px;
+
+.whl-loader-line-wrap:nth-child(1)
+  animation-delay -50ms;
+
+.whl-loader-line-wrap:nth-child(2)
+  animation-delay -100ms;
+
+.whl-loader-line-wrap:nth-child(3)
+  animation-delay -150ms;
+
+.whl-loader-line-wrap:nth-child(4)
+  animation-delay -200ms;
+
+.whl-loader-line-wrap:nth-child(5)
+  animation-delay -250ms;
+
+.whl-loader-line-wrap:nth-child(1) .whl-loader-line
+  border-color hsl(0, 80%, 60%);
+  height 50px;
+  width 50px;
+  top 0px;
+
+.whl-loader-line-wrap:nth-child(2) .whl-loader-line
+  border-color hsl(60, 80%, 60%);
+  height 40px;
+  width 40px;
+  top 5px;
+
+.whl-loader-line-wrap:nth-child(3) .whl-loader-line
+  border-color hsl(120, 80%, 60%);
+  height 30px;
+  width 30px;
+  top 10px;
+
+.whl-loader-line-wrap:nth-child(4) .whl-loader-line
+  border-color hsl(180, 80%, 60%);
+  height 20px;
+  width 20px;
+  top 15px;
+
+.whl-loader-line-wrap:nth-child(5) .whl-loader-line
+  border-color hsl(240, 80%, 60%);
+  height 10px;
+  width 10px;
+  top 20px;
+
+@keyframes spin
+  0%
+    transform rotate(0);
+
+  100%
+    transform rotate(360deg);
