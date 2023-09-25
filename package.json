@@ -1,6 +1,6 @@
 {
   "name": "react-rainbow-loading",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react rainbow loading",
   "main": "dist/bundle.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/whlshy/react-chrome-tabs.git"
+    "url": "https://github.com/whlshy/react-rainbow-loading.git"
   },
   "author": "WHL",
   "license": "MIT",
