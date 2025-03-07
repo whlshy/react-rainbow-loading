@@ -42,6 +42,10 @@ render(
 
 # Change Log
 
+## 0.0.4
+
+remove proptypes default props
+
 ## 0.0.2
 
 first commit

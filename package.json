@@ -1,6 +1,6 @@
 {
   "name": "react-rainbow-loading",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "react rainbow loading",
   "main": "dist/bundle.js",
   "scripts": {
