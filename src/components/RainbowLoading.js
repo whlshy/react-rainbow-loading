@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules'
 import propTypes from 'prop-types'
 
 const RainbowLoading = (props) => {
-  const { style, className } = props
+  const { style = {}, className = "" } = props
   return (
     <div className={className || ''} style={style || {}}>
       <div className="whl-loader-inner">
@@ -33,11 +33,6 @@ RainbowLoading.propTypes = {
   classNameName: propTypes.string,
   /** style */
   style: propTypes.object,
-}
-
-RainbowLoading.defaultProps = {
-  classNameName: "",
-  style: {}
 }
 
 export default CSSModules(RainbowLoading, styles);
